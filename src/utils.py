@@ -2,7 +2,7 @@ import os
 import sys 
 import numpy as np
 import pandas as pd
-import dill
+import dill # type: ignore
 from sklearn.metrics import r2_score
 
 from src.exception import CustomException
