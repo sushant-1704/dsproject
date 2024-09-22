@@ -1,5 +1,6 @@
 import os
 import sys
+import pickle
 from dataclasses import dataclass
 
 from catboost import CatBoostRegressor
@@ -114,5 +115,3 @@ class ModelTrainer:
 
         except Exception as e:
             raise CustomException(e,sys)
-    
-    
